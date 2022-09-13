@@ -63,5 +63,10 @@ namespace Semana7Practica
             }
             MessageBox.Show(itemSelected);
         }
+
+        private void txtNum2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -85,6 +85,7 @@ namespace Semana7Practica
             this.txtNum2.Name = "txtNum2";
             this.txtNum2.Size = new System.Drawing.Size(100, 20);
             this.txtNum2.TabIndex = 5;
+            this.txtNum2.TextChanged += new System.EventHandler(this.txtNum2_TextChanged);
             // 
             // btnSuma
             // 
